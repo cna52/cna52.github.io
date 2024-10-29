@@ -1,13 +1,115 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Personal Page Home</title>
     <link rel="icon" type="image/x-icon" href="images/star.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>cna52</h1>
-    <p>testing</p>
+    <nav>
+        <div class="heading">Home Page</div>
+        <span class="sideMenuButton"
+          onclick="openNavbar()">
+          &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href=#Home>Home</a></li>
+                <li><a href=#about>About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+    </div>
+
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Camille's Portfolio</h1>
+        </div>
+
+        <div class "side2">
+            <p>words</p>
+        </div>
+    </div>
+
+    <section class="about" id="ProblemState">
+        <div class="content">
+            <div class="title">
+                <span>About me</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="title">
+                <span>Projects</span>
+            </div>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="topic">
+                    <a href="" target="_blank"> <!--LINK TO SMT??-->
+                        Student Learning
+                    </a>
+                </div>
+                <br>
+                <p>
+                    This project aims to benefit 
+                    the education process of students
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="topic">
+                    <a href="" target="_blank"> <!--LINK TO SMT??-->
+                        Student Learning
+                    </a>
+                </div>
+                <br>
+                <p>
+                    This project aims to benefit 
+                    the education process of students
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="topic">
+                    <a href="" target="_blank"> <!--LINK TO SMT??-->
+                        Student Learning
+                    </a>
+                </div>
+                <br>
+                <p>
+                    This project aims to benefit 
+                    the education process of students
+                </p>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                    Camille Ng
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
 </body>
+
 </html>
