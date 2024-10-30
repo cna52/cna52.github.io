@@ -211,6 +211,9 @@ section .topic a {
     background-color: #717171;
 }
 
+.about .boxes .box p{
+    font-size:medium;
+}
 /* Contact Page  */
 
 .contact {
