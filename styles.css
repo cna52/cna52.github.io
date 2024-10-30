@@ -133,6 +133,9 @@ nav .sideMenuButton {
     margin-bottom: 10px;
     color: lightblue;
 }
+.side2 p{
+    font-size: 16px;
+}
 
 .side1 button {
     width: 200px;
